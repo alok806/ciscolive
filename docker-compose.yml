@@ -3,5 +3,5 @@ services:
     devwks1000:
         image: alok806/devwks1000
         volumes:
-            - /Users/alwadhwa/Desktop/aci/output:/root/output
-            - /Users/alwadhwa/Desktop/aci/input:/root/input
+            - <path>/aci/output:/root/output
+            - <path>/aci/input:/root/input
