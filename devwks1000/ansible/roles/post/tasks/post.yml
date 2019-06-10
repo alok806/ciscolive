@@ -1,0 +1,15 @@
+---
+
+- name: Create Configuration
+  aci_rest:
+   host: "{{ host }}"
+   use_proxy: "{{ use_proxy }}"
+   validate_certs: "{{ validate_certs }}"
+   username: "{{ username }}"
+   password: "{{ password }}"
+   method: post
+   path: "{{ post_path_json }}"
+   src: "{{ src_json }}"
+  register: resp
+- debug:
+   var: resp

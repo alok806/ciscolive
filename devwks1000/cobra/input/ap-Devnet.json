@@ -1,0 +1,19 @@
+{
+    "imdata": [
+        {
+            "fvAp": {
+                "attributes": {
+                    "annotation": "",
+                    "descr": "",
+                    "dn": "uni/tn-devwks1000-<>/ap-Devnet",
+                    "name": "Devnet",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "prio": "unspecified"
+                }
+            }
+        }
+    ],
+    "totalCount": "1"
+}

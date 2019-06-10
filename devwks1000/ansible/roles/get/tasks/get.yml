@@ -1,0 +1,14 @@
+---
+
+- name: Get
+  aci_rest:
+   host: "{{ host }}"
+   use_proxy: "{{ use_proxy }}"
+   validate_certs: "{{ validate_certs }}"
+   username: "{{ username }}"
+   password: "{{ password }}"
+   method: get
+   path: "{{ get_path_json }}"
+  register: query_result
+- debug:
+   var: query_result
