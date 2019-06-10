@@ -5,4 +5,4 @@ username: devwks1000-1
 password: D3vnet!!
 post_path_json: /api/mo/uni.json
 get_path_json: /api/node/class/fvTenant.json
-src_json: /Users/alwadhwa/Desktop/aci/input/ap-Devnet.json
+src_json: aci/input/ap-Devnet.json
